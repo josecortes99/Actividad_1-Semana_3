@@ -1,0 +1,148 @@
+body{
+    background-color: yellow;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.header__logo {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.header__content {
+  text-align: center;
+  flex: 0.9;
+}
+
+.header__title{
+    font-size: 35px;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+}
+
+.header__menu{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 10;
+    font-style: italic;
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  transition: color 0.6s;
+}
+
+.header__link:hover{
+    color: yellow;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px 20px;
+  margin-top: 10px;
+  background-color: orangered;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+/* Sección de búsqueda */
+.busqueda {
+  max-width: 500px;
+  height: 1400px;
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.busqueda__title {
+  font-size: 34px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.busqueda__text {
+  background-color: yellow;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+
+.busqueda__input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: orangered;
+}
+
+.busqueda__button{
+    background-color: orangered;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.busqueda__button:hover{
+    color: yellow;
+}
+
+/* Sección de cartas */
+.cartas {
+  max-width: 500px;
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cartas__title {
+  font-size: 34px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.cartas__title--1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: orangered;
+  font-style: italic;
+}
+
+.cartas__image {
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+.cartas__divider {
+  margin: 20px 0;
+  border: none;
+  border-top: 2px solid #000;
+}
+
+
