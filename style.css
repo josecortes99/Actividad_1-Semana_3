@@ -13,7 +13,6 @@ body{
 
 .header__logo {
   width: 120px;
-  height: auto;
   margin-right: 20px;
   border-radius: 10px;
 }
@@ -57,11 +56,9 @@ body{
 .main {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
   padding: 40px 20px;
   margin-top: 10px;
   background-color: orangered;
-  flex-wrap: wrap;
   border-radius: 20px;
 }
 
